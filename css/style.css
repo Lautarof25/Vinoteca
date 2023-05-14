@@ -1,0 +1,17 @@
+:root {
+    --firstColor: #cd0043;
+    --secondColor: #050202;
+    --white: #f9f8f8;
+}
+
+html {
+    scroll-padding: 70px;
+}
+
+.bg-primary {
+    background-color: var(--firstColor)!important;
+}
+.btn-primary {
+    background-color: var(--firstColor)!important;
+    border: none;
+}
