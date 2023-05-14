@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+.frase {
+    font-family: 'Parisienne', cursive;
+}
+
 :root {
     --firstColor: #cd0043;
     --secondColor: #050202;
     --white: #f9f8f8;
+}
+::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
 }
 
 html {
@@ -14,4 +24,22 @@ html {
 .btn-primary {
     background-color: var(--firstColor)!important;
     border: none;
+}
+.btn-secondary{
+    background-color: var(--secondColor)!important;
+    border: none;
+}
+
+.bg-img {
+    background-image: url("../img/vino_mesa_newsletter.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h-500px {
+    height: 500px!important;
+}
+
+.text-shadow {
+    text-shadow: 5px 5px 5px black;
 }
