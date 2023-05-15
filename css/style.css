@@ -36,6 +36,10 @@ html {
     background-size: cover;
 }
 
+.card-width {
+    max-width: 14rem;
+}
+
 .h-500px {
     height: 500px!important;
 }
