@@ -39,6 +39,9 @@ html {
 .h-500px {
     height: 500px!important;
 }
+.h-400px {
+    height: 400px!important;
+}
 
 .text-shadow {
     text-shadow: 5px 5px 5px black;
@@ -46,4 +49,10 @@ html {
 
 .object-fit-cover{
     object-fit: cover!important;
+}
+.vh-50 {
+    min-height: 50vh;
+}
+.start-50 {
+    left: 44%!important;
 }
