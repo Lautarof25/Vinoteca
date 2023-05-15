@@ -43,3 +43,7 @@ html {
 .text-shadow {
     text-shadow: 5px 5px 5px black;
 }
+
+.object-fit-cover{
+    object-fit: cover!important;
+}
