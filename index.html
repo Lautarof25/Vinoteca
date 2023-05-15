@@ -103,14 +103,22 @@
         </div>
         <section id="shop" class="container-md">
             <h1 class="text-center">Elige tus vinos</h1>
-            <div class="filtros d-flex justify-content-center gap-5">
-                <div id="checkboxes">
-                    <input type="checkbox" name="tinto" id="tinto">Tinto
-                    <input type="checkbox" name="tinto" id="blanco">Blanco
-                    <input type="checkbox" name="tinto" id="rosado">Rosado
+            <div class="row">
+                <div class="col-sm-6 d-flex flex-wrap justify-content-center gap-1">
+                  <label for="tinto">
+                    <input type="checkbox" id="tinto"> Tinto
+                  </label>
+                  <label for="blanco">
+                    <input type="checkbox" id="blanco"> Blanco
+                  </label>
+                  <label for="rosado">
+                    <input type="checkbox" id="rosado"> Rosado
+                  </label>
                 </div>
-                <input search="text" placeholder="Malbec">
-            </div>
+                <div class="col-sm-6">
+                  <input type="search" class="w-100" placeholder="Malbec">
+                </div>
+              </div>
             <div class="cards p-5 row text-center">
                 <div class="card" style="width: 18rem;">
                     <img src="./img/rotwein-pio-cesare-barolo-docg.webp" class="card-img-top" alt="...">
@@ -139,10 +147,10 @@
                 <div class="bg-primary text-white p-5 vh-25">
                     <h2>Registro</h2>
                     <form class="row g-3">
-                        <div class="col">
+                        <div class="col-sm">
                             <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
                         </div>
-                        <div class="col">
+                        <div class="col-sm">
                             <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
                         </div>
                         <div class="col-12">
