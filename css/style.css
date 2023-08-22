@@ -31,9 +31,14 @@ html {
 }
 
 .bg-img {
-    background-image: url("../img/vino_mesa_newsletter.jpeg");
+    background-image: url("../img/vino_mesa_newsletter.webp");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.form-check-input:checked {
+    background-color: var(--firstColor);
+    border: var(--firstColor);
 }
 
 .card-width {
