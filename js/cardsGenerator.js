@@ -44,6 +44,10 @@ function createCard(id){
     cards.appendChild(card)
 }
 
+for (let i = 0; i < winesItems.length; i++) {
+    createCard(i)
+}
+
 {
 /* 
 <div class="card card-width">
