@@ -17,7 +17,8 @@ const winesData = {
             "price": 18.5,
             "year": 2020,
             "content": 750,
-            "category": "White"
+            "category": "White",
+            "img": "../img/wines/rotwein-gianni-doglia-grignolino-dasti-docg.webp"
         },
         {
             "id": 2,
@@ -26,7 +27,8 @@ const winesData = {
             "price": 29.75,
             "year": 2017,
             "content": 750,
-            "category": "Red"
+            "category": "Red",
+            "img": "../img/wines/rotwein-pio-cesare-barolo-docg.webp"
         },
         {
             "id": 3,
@@ -35,7 +37,8 @@ const winesData = {
             "price": 22.0,
             "year": 2019,
             "content": 750,
-            "category": "White"
+            "category": "White",
+            "img": "../img/wines/rotwein-vespa-salento-negroamaro-igt-il-fedale.webp"
         },
         {
             "id": 4,
@@ -45,6 +48,8 @@ const winesData = {
             "year": 2018,
             "content": 750,
             "category": "Red"
+            ,
+            "img": "../img/wines/rotwein-vespa-salento-negroamaro-igt-il-fedale.webp"
         },
         {
             "id": 5,
@@ -53,7 +58,8 @@ const winesData = {
             "price": 16.5,
             "year": 2020,
             "content": 750,
-            "category": "Rosé"
+            "category": "Rosé",
+            "img": "../img/wines/rotwein-vespa-salento-negroamaro-igt-il-fedale.webp"
         },
         {
             "id": 6,
@@ -62,7 +68,8 @@ const winesData = {
             "price": 26.5,
             "year": 2016,
             "content": 750,
-            "category": "Red"
+            "category": "Red",
+            "img": "../img/wines/rotwein-vespa-salento-negroamaro-igt-il-fedale.webp"
         },
         {
             "id": 7,
@@ -71,7 +78,8 @@ const winesData = {
             "price": 21.75,
             "year": 2021,
             "content": 750,
-            "category": "White"
+            "category": "White",
+            "img": "../img/wines/rotwein-vespa-salento-negroamaro-igt-il-fedale.webp"
         },
         {
             "id": 8,
@@ -80,7 +88,8 @@ const winesData = {
             "price": 23.99,
             "year": 2019,
             "content": 750,
-            "category": "Red"
+            "category": "Red",
+            "img": "../img/wines/rotwein-vespa-salento-negroamaro-igt-il-fedale.webp"
         }
     ]
 }
