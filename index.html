@@ -129,22 +129,23 @@
         <section id="shop" class="container-md">
             <h1 class="text-center">Elige tus vinos</h1>
             <div class="row">
-                <div class="col-sm-6 d-flex flex-wrap justify-content-center align-items-center gap-1">
-                    <label for="tinto">
-                        <input class="form-check-input" type="checkbox" id="tinto"> Tinto
+                <div id="checkboxes" class="col-sm-6 d-flex flex-wrap justify-content-center align-items-center gap-1">
+                    <!-- <label for="Red">
+                        <input class="form-check-input" type="checkbox" id="Red"> Tinto
                     </label>
-                    <label for="blanco">
-                        <input class="form-check-input" type="checkbox" id="blanco"> Blanco
+                    <label for="White">
+                        <input class="form-check-input" type="checkbox" id="White"> Blanco
                     </label>
-                    <label for="rosado">
-                        <input class="form-check-input" type="checkbox" id="rosado"> Rosado
-                    </label>
+                    <label for="Rosé">
+                        <input class="form-check-input" type="checkbox" id="Rosé"> Rosado
+                    </label> -->
                 </div>
                 <div class="col-sm-6">
                     <input type="search" class="w-100 form-control" placeholder="Malbec">
                 </div>
             </div>
-            <div id="cards" class="cards gap-4 p-5 row text-center d-flex flex-wrap justify-content-center align-items-center">
+            <div id="cards"
+                class="cards gap-4 p-5 row text-center d-flex flex-wrap justify-content-center align-items-center">
 
 
             </div>
@@ -160,13 +161,16 @@
                     <h2>Registro</h2>
                     <form class="row g-3">
                         <div class="col-sm">
-                            <input type="text" autocomplete="given-name" class="form-control col" placeholder="Nombre" aria-label="Nombre">
+                            <input type="text" autocomplete="given-name" class="form-control col" placeholder="Nombre"
+                                aria-label="Nombre">
                         </div>
                         <div class="col-sm">
-                            <input type="text" autocomplete="family-name" class="form-control col" placeholder="Apellido" aria-label="Apellido">
+                            <input type="text" autocomplete="family-name" class="form-control col"
+                                placeholder="Apellido" aria-label="Apellido">
                         </div>
                         <div class="col-12">
-                            <input type="email" autocomplete="email" class="form-control col" id="inputEmail" placeholder="Email">
+                            <input type="email" autocomplete="email" class="form-control col" id="inputEmail"
+                                placeholder="Email">
                         </div>
                         <div class="col-12">
                             <input type="password" class="form-control col" id="inputPassword"
@@ -289,10 +293,12 @@
                     <h2 class="text-shadow">Registro</h2>
                     <form class="row g-3">
                         <div class="col-sm-4">
-                            <input type="text" autocomplete="true" class="form-control col" placeholder="Nombre" aria-label="Nombre">
+                            <input type="text" autocomplete="true" class="form-control col" placeholder="Nombre"
+                                aria-label="Nombre">
                         </div>
                         <div class="col-sm-4">
-                            <input type="email" autocomplete="true" class="form-control col" id="inputEmail2" placeholder="Email">
+                            <input type="email" autocomplete="true" class="form-control col" id="inputEmail2"
+                                placeholder="Email">
                         </div>
                         <div class="col-sm-4">
                             <button class="btn btn-secondary col-12 text-white" type="button">Enviar</button>
@@ -320,6 +326,7 @@
         crossorigin="anonymous"></script>
     <script src="./js/wineData.js"></script>
     <script src="./js/cardsGenerator.js"></script>
+    <script src="./js/filterCheck.js"></script>
 </body>
 
 </html>
