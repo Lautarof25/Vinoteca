@@ -1,5 +1,7 @@
 const cards = document.querySelector("#cards")
 const winesItems = winesData["wines"]
+let arrayCategories = []
+winesItems.forEach(wine => { arrayCategories.push(wine.category) })
 
 function createCard(id){
     const card = document.createElement("div")
@@ -37,16 +39,22 @@ function createCard(id){
                 const textA = document.createTextNode("Más información")
                 a.appendChild(textA)
 
-
     divButtons.append(input,button,a)
     cardBody.append(name,description,divButtons)
     card.append(img,cardBody)
     cards.appendChild(card)
 }
 
-for (let i = 0; i < winesItems.length; i++) {
-    createCard(i)
+function addCards(array){
+    for (let i = 0; i < array.length; i++) {
+        if(arrayCategories.includes(array[i].category)){
+            createCard(i)
+        }
+    }
 }
+addCards(winesItems)
+
+
 
 {
 /* 
