@@ -1,10 +1,6 @@
 // Dynamic checkboxes
 const checkboxes = document.querySelector("#checkboxes")
 
-let uniqueCategories = arrayCategories.filter((w, index) => {
-    return arrayCategories.indexOf(w) === index;
-})
-
 function createCheckbox(category) {
     const label = document.createElement("label")
     label.setAttribute("for", `${category}`)
@@ -23,6 +19,7 @@ function addingDynamicCheckboxes() {
         createCheckbox(uniqueCategories[i])
     }
 }
+// Ading dynamic checkboxes
 addingDynamicCheckboxes()
 
 checkboxes.addEventListener("change", removeAllCards)
@@ -32,24 +29,32 @@ function removeAllCards() {
         cards.removeChild(cards.firstChild);
     }
 }
-
-checkboxes.addEventListener("change", function(e){
-    if(e.target.id === "White"){
-        arrayCategories = []
-        for (let i = 0; i < winesItems.length; i++) {
-            if(winesItems[i].category === "White"){
-                arrayCategories.push(winesItems[i].category)
-            }
-        }
-    }
-    addCards(arrayCategories)
-})
-
 // Tomar el valor del checkbox/es
+
+checkboxes.addEventListener("change", updateUniqueCategories)
 
 // Iterar sobre los datos que contienen el id del checkbox/es tildado
 
-// Filtrar los datos según id tildado
+// Filtrar los datos según la categoria del id tildado
 
-// Agregar las cards según id tildado
+// Agregar las cards según la categoria del id tildado
 
+function updateUniqueCategories() {
+    uniqueCategories = []
+    for (let i = 1; i < checkboxes.childElementCount+1; i++) {
+        let itemCheckbox = checkboxes.childNodes[i].childNodes[0] 
+        if(itemCheckbox.checked && !uniqueCategories.includes(itemCheckbox.id)){
+            uniqueCategories.push(itemCheckbox.id)
+        }
+    }
+}
+
+checkboxes.addEventListener("change", addCardsWithCategory)
+
+function addCardsWithCategory() {
+    for (let i = 0; i < winesItems.length; i++) {
+        if(uniqueCategories.includes(winesItems[i].category)){
+            createCard(i)
+        }
+    }
+}

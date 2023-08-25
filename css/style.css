@@ -65,3 +65,7 @@ html {
 .start-50 {
     left: 44%!important;
 }
+
+.h-600px {
+    min-height: 637px!important;
+}
