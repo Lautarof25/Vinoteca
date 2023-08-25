@@ -53,7 +53,7 @@ const winesData = {
             "content": 750,
             "category": "Red",
             "stock": 1,
-            "img": "../img/wines/rotwein-vespa-salento-negroamaro-igt-il-fedale.webp"
+            "img": "../img/wines/rotwein-fliederhof-suedtiroler-stmagdalener-classico-doc-gran-marie.webp"
         },
         {
             "id": 5,
@@ -64,7 +64,7 @@ const winesData = {
             "content": 750,
             "category": "Rosé",
             "stock": 5,
-            "img": "../img/wines/rotwein-vespa-salento-negroamaro-igt-il-fedale.webp"
+            "img": "../img/wines/fliederhof-suedtiroler-sauvignon-doc-stella.webp"
         },
         {
             "id": 6,
@@ -75,7 +75,7 @@ const winesData = {
             "content": 750,
             "category": "Red",
             "stock": 9,
-            "img": "../img/wines/rotwein-vespa-salento-negroamaro-igt-il-fedale.webp"
+            "img": "../img/wines/inama-campo-del-lago-merlot-2015.webp"
         },
         {
             "id": 7,
@@ -97,7 +97,7 @@ const winesData = {
             "content": 750,
             "category": "Red",
             "stock": 25,
-            "img": "../img/wines/rotwein-vespa-salento-negroamaro-igt-il-fedale.webp"
+            "img": "../img/wines/rotwein-gianni-doglia-grignolino-dasti-docg.webp"
         }
     ]
 }

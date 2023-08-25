@@ -22,6 +22,8 @@ function addingDynamicCheckboxes() {
 // Ading dynamic checkboxes
 addingDynamicCheckboxes()
 
+// Adding checkboxes filtering
+
 checkboxes.addEventListener("change", removeAllCards)
 
 function removeAllCards() {
@@ -29,15 +31,8 @@ function removeAllCards() {
         cards.removeChild(cards.firstChild);
     }
 }
-// Tomar el valor del checkbox/es
 
 checkboxes.addEventListener("change", updateUniqueCategories)
-
-// Iterar sobre los datos que contienen el id del checkbox/es tildado
-
-// Filtrar los datos según la categoria del id tildado
-
-// Agregar las cards según la categoria del id tildado
 
 function updateUniqueCategories() {
     uniqueCategories = []
@@ -56,5 +51,8 @@ function addCardsWithCategory() {
         if(uniqueCategories.includes(winesItems[i].category)){
             createCard(i)
         }
+    }
+    if(uniqueCategories.length == 0){
+        addCards(winesItems)
     }
 }
