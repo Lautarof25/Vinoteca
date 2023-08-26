@@ -69,3 +69,15 @@ html {
 .h-600px {
     min-height: 637px!important;
 }
+
+input[type="search"]:focus, 
+input[type="checkbox"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+button:focus
+{
+    border-color: var(--firstColor)!important;
+    box-shadow: 1px 1px 5px var(--firstColor)!important;
+    outline: var(--firstColor)!important;
+}
