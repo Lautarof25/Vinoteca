@@ -7,6 +7,11 @@ A WineStore page example
 
 ## Mockup
 
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
 ## Color Reference
 
 | Colores             | Hex                                                                |
