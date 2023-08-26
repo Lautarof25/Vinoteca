@@ -75,9 +75,23 @@ input[type="checkbox"]:focus,
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus,
-button:focus
+#sesion button:focus
 {
     border-color: var(--firstColor)!important;
     box-shadow: 1px 1px 5px var(--firstColor)!important;
     outline: var(--firstColor)!important;
 }
+
+/* removing "X" from input search
+
+PD:look up for a real solution to clean the input and modify the cards, 
+because it's not working */
+
+/* clears the ‘X’ from Internet Explorer */
+input[type=search]::-ms-clear { display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal { display: none; width : 0; height: 0; }
+/* clears the ‘X’ from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }

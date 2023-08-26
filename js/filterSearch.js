@@ -4,31 +4,39 @@ search.addEventListener("keyup", saveSearchValue)
 checkboxes.addEventListener("change", searchValues)
 search.addEventListener("keyup", searchValues)
 
-let dynamicCards = document.querySelectorAll("#cards > *")
-
 function saveSearchValue() {
-    let searchValue = search.value.toLowerCase().trim()
-    return searchValue
+    let searchValue = search.value
+    let normalizeValue = searchValue.replace(/\s+/g, " ").replace(/^\s+|\s+$/g, "").toLowerCase()
+    return normalizeValue
 }
+
+let arrayId = []
 
 function searchValues() {
-    dynamicCards = document.querySelectorAll("#cards > *")
-    for (let i = 0; i < dynamicCards.length; i++) {
-        let name = dynamicCards[i].childNodes[1].childNodes[0].textContent.toLowerCase()
-        let description = dynamicCards[i].childNodes[1].childNodes[1].textContent.toLocaleLowerCase()
-        if (name.includes(saveSearchValue()) || description.includes(saveSearchValue())) {
-            console.log(name)
-            console.log(description)
-        }
+    arrayId = []
+    if(uniqueCategories.length == 3) {
+        winesItems.forEach(wine => {
+            if(wine.name.toLowerCase().includes(saveSearchValue()) 
+                /*|| wine.description.toLowerCase().includes(saveSearchValue())*/){
+                    arrayId.push(wine.id)
+            }
+        })
     }
-    console.log(saveSearchValue())
+    addCardsWithId()
 }
 
-function addCardsWithNameOrDescription() {
-    return 0
+function addCardsWithId() {
+    removeAllCards()
+    for (let i = 0; i < winesItems.length; i++) {
+        if(arrayId.includes(winesItems[i].id)){
+            createCard(i)
+        }
+    }
 }
 
 /**
+ * 
+ * Busqueda sobre html elements
  Objeto a escanear 
  dynamicCards
  
@@ -40,4 +48,7 @@ function addCardsWithNameOrDescription() {
  Descripción
  dynamicCards[i].childNodes[1].childNodes[1].textContent
  
+
+ ---------
+ Busqueda sobre datos
  */
