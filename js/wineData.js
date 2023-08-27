@@ -7,6 +7,7 @@ const winesData = {
             "price": 25.99,
             "year": 2018,
             "content": 750,
+            "score":89,
             "category": "Red",
             "stock": 5,
             "img": "./img/wines/rotwein-fliederhof-suedtiroler-stmagdalener-classico-doc-gran-marie.webp"
@@ -18,6 +19,7 @@ const winesData = {
             "price": 18.5,
             "year": 2020,
             "content": 750,
+            "score":78,
             "category": "White",
             "stock": 10,
             "img": "./img/wines/rotwein-gianni-doglia-grignolino-dasti-docg.webp"
@@ -29,6 +31,7 @@ const winesData = {
             "price": 29.75,
             "year": 2017,
             "content": 750,
+            "score":90,
             "category": "Red",
             "stock": 7,
             "img": "./img/wines/rotwein-pio-cesare-barolo-docg.webp"
@@ -40,6 +43,7 @@ const winesData = {
             "price": 22.0,
             "year": 2019,
             "content": 750,
+            "score":87,
             "category": "White",
             "stock": 8,
             "img": "./img/wines/rotwein-vespa-salento-negroamaro-igt-il-fedale.webp"
@@ -51,6 +55,7 @@ const winesData = {
             "price": 19.9,
             "year": 2018,
             "content": 750,
+            "score":83,
             "category": "Red",
             "stock": 1,
             "img": "./img/wines/rotwein-fliederhof-suedtiroler-stmagdalener-classico-doc-gran-marie.webp"
@@ -62,6 +67,7 @@ const winesData = {
             "price": 16.5,
             "year": 2020,
             "content": 750,
+            "score":69,
             "category": "Rosé",
             "stock": 5,
             "img": "./img/wines/fliederhof-suedtiroler-sauvignon-doc-stella.webp"
@@ -73,6 +79,7 @@ const winesData = {
             "price": 26.5,
             "year": 2016,
             "content": 750,
+            "score":88,
             "category": "Red",
             "stock": 9,
             "img": "./img/wines/inama-campo-del-lago-merlot-2015.webp"
@@ -84,6 +91,7 @@ const winesData = {
             "price": 21.75,
             "year": 2021,
             "content": 750,
+            "score":86,
             "category": "White",
             "stock": 15,
             "img": "./img/wines/rotwein-vespa-salento-negroamaro-igt-il-fedale.webp"
@@ -95,6 +103,7 @@ const winesData = {
             "price": 23.99,
             "year": 2019,
             "content": 750,
+            "score":85,
             "category": "Red",
             "stock": 25,
             "img": "./img/wines/rotwein-gianni-doglia-grignolino-dasti-docg.webp"
