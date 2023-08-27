@@ -61,22 +61,5 @@ function addCards(array) {
         createCard(i)
     }
 }
+// Adding cards first load
 addCards(winesItems)
-
-
-
-{
-/* 
-<div class="card card-width">
-    <img src="./img/wines/rotwein-vespa-salento-negroamaro-igt-il-fedale.webp" class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">Rotwein</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-            the card's content.</p>
-        <div class="row gap-1">
-            <input class="form-control col" type="number" min="0" max="5" placeholder="0">
-            <button class="btn btn-primary col">Agregar</button>
-            <a href="#" class="btn btn-primary m-1">Más información</a>
-        </div>
-    </div>
-</div> */}

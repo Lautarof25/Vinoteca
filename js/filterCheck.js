@@ -23,7 +23,6 @@ function addingDynamicCheckboxes() {
 addingDynamicCheckboxes()
 
 // Adding checkboxes filtering
-
 checkboxes.addEventListener("change", removeAllCards)
 
 function removeAllCards() {
@@ -36,9 +35,9 @@ checkboxes.addEventListener("change", updateUniqueCategories)
 
 function updateUniqueCategories() {
     uniqueCategories = []
-    for (let i = 1; i < checkboxes.childElementCount+1; i++) {
-        let itemCheckbox = checkboxes.childNodes[i].childNodes[0] 
-        if(itemCheckbox.checked && !uniqueCategories.includes(itemCheckbox.id)){
+    for (let i = 1; i < checkboxes.childElementCount + 1; i++) {
+        let itemCheckbox = checkboxes.childNodes[i].childNodes[0]
+        if (itemCheckbox.checked) {
             uniqueCategories.push(itemCheckbox.id)
         }
     }
@@ -48,11 +47,11 @@ checkboxes.addEventListener("change", addCardsWithCategory)
 
 function addCardsWithCategory() {
     for (let i = 0; i < winesItems.length; i++) {
-        if(uniqueCategories.includes(winesItems[i].category)){
+        if (uniqueCategories.includes(winesItems[i].category)) {
             createCard(i)
         }
     }
-    if(uniqueCategories.length == 0){
+    if (uniqueCategories.length == 0) {
         addCards(winesItems)
     }
 }
