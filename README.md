@@ -3,15 +3,6 @@
 
 A WineStore page example
 
-
-
-## Mockup
-
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
 ## Color Reference
 
 | Colores             | Hex                                                                |
@@ -27,3 +18,17 @@ HTML, CSS, JavaScript and Bootstrap
 
 - [@lautarof25](https://www.github.com/lautarof25)
 
+
+
+## Mockup
+
+![New Wireframe 1 (2)](https://github.com/Lautarof25/Vinoteca/assets/81919816/7676f507-a91a-4586-ae2f-b6bd63fda4fc)
+
+
+## Screenshots
+
+![image](https://github.com/Lautarof25/Vinoteca/assets/81919816/b88cf474-4fa0-4983-af05-6fdd087407e9)
+![image](https://github.com/Lautarof25/Vinoteca/assets/81919816/dd660287-2244-4f85-bd69-b0890de7d582)
+![image](https://github.com/Lautarof25/Vinoteca/assets/81919816/20ca5f51-e714-4d09-ad73-835e18790af9)
+![image](https://github.com/Lautarof25/Vinoteca/assets/81919816/f037265d-b5e9-4e3f-a3f0-b01fa0908367)
+![image](https://github.com/Lautarof25/Vinoteca/assets/81919816/e21c6e24-f1c9-42d0-9aa1-3e0105932c82)
