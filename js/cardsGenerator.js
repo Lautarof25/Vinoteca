@@ -9,7 +9,7 @@ let uniqueCategories = arrayCategories.filter((w, index) => {
 function createCard(id) {
     const card = document.createElement("div")
     card.setAttribute("id", `card${id}`)
-    card.setAttribute("class", "card card-width p-2 h-600px d-flex justify-content-between")
+    card.setAttribute("class", "card card-width p-2 d-flex justify-content-between")
 
     const img = document.createElement("img")
     img.setAttribute("src", `${winesItems[id]["img"]}`)
@@ -17,7 +17,7 @@ function createCard(id) {
     img.setAttribute("class", "card-img-top")
 
     const cardBody = document.createElement("div")
-    cardBody.setAttribute("class", "card-body align-self-end")
+    cardBody.setAttribute("class", "card-body align-self-end pb-0")
 
     const name = document.createElement("h5")
     name.setAttribute("class", "card-title")
