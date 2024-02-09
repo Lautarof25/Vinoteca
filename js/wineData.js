@@ -10,7 +10,7 @@ const winesData = {
             "score": 89,
             "category": "Tinto",
             "stock": 5,
-            "img": "./img/wines/generic.jpg"
+            "img": "./img/wines/genericWine.webp"
         },
         {
             "id": 1,
@@ -22,7 +22,7 @@ const winesData = {
             "score": 78,
             "category": "Blanco",
             "stock": 10,
-            "img": "./img/wines/generic.jpg"
+            "img": "./img/wines/genericWine.webp"
         },
         {
             "id": 2,
@@ -34,7 +34,7 @@ const winesData = {
             "score": 90,
             "category": "Tinto",
             "stock": 7,
-            "img": "./img/wines/generic.jpg"
+            "img": "./img/wines/genericWine.webp"
         },
         {
             "id": 3,
@@ -46,7 +46,7 @@ const winesData = {
             "score": 87,
             "category": "Blanco",
             "stock": 8,
-            "img": "./img/wines/generic.jpg"
+            "img": "./img/wines/genericWine.webp"
         },
         {
             "id": 4,
@@ -58,7 +58,7 @@ const winesData = {
             "score": 83,
             "category": "Tinto",
             "stock": 1,
-            "img": "./img/wines/generic.jpg"
+            "img": "./img/wines/genericWine.webp"
         },
         {
             "id": 5,
@@ -70,7 +70,7 @@ const winesData = {
             "score": 69,
             "category": "Rosado",
             "stock": 5,
-            "img": "./img/wines/generic.jpg"
+            "img": "./img/wines/genericWine.webp"
         },
         {
             "id": 6,
@@ -82,7 +82,7 @@ const winesData = {
             "score": 88,
             "category": "Tinto",
             "stock": 9,
-            "img": "./img/wines/generic.jpg"
+            "img": "./img/wines/genericWine.webp"
         },
         {
             "id": 7,
@@ -94,7 +94,7 @@ const winesData = {
             "score": 86,
             "category": "Blanco",
             "stock": 15,
-            "img": "./img/wines/generic.jpg"
+            "img": "./img/wines/genericWine.webp"
         },
         {
             "id": 8,
@@ -106,7 +106,7 @@ const winesData = {
             "score": 85,
             "category": "Tinto",
             "stock": 25,
-            "img": "./img/wines/generic.jpg"
+            "img": "./img/wines/genericWine.webp"
         }
     ]
 };

@@ -1,9 +1,8 @@
 const cards = document.querySelector("#cards")
 const winesItems = winesData["wines"]
-let arrayCategories = []
-winesItems.forEach(wine => { arrayCategories.push(wine.category) })
-let uniqueCategories = arrayCategories.filter((w, index) => {
-    return arrayCategories.indexOf(w) === index;
+let arrayCategories = new Set()
+winesItems.forEach(wine => { 
+    arrayCategories.add(wine.category)
 })
 
 function createCard(id) {

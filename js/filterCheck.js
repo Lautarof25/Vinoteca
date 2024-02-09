@@ -15,9 +15,9 @@ function createCheckbox(category) {
 }
 
 function addingDynamicCheckboxes() {
-    for (let i = 0; i < uniqueCategories.length; i++) {
-        createCheckbox(uniqueCategories[i])
-    }
+    arrayCategories.forEach(category => {
+        createCheckbox(category)
+    })
 }
 // Ading dynamic checkboxes
 addingDynamicCheckboxes()
